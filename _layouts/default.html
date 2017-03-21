@@ -8,7 +8,7 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+    <link href="https://fonts.googleapis.com/css?family=Muli|Open+Sans" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
@@ -22,8 +22,8 @@
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
           <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">A Food-Based Survival Guide</a></h1>
+            <p class="site-description"></p>
           </div>
 
           <nav>
@@ -33,9 +33,16 @@
         </header>
       </div>
     </div>
+    <div id="sidebar" role="ads" class="container">
+    <p> 
+    Our team has been dedicated to helping small businesses grow for over eight years. We hope the knowledge we've gained can be shared beyond San Diego.</p>
+    <img src="{{ site.baseurl }}/images/face.png" />
+    <p class="greeting">Sae Kitchen Team</p>
+    </div>
 
     <div id="main" role="main" class="container">
       {{ content }}
+      </div>
     </div>
 
     <div class="wrapper-footer">
