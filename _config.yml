@@ -18,11 +18,11 @@ avatar: https://raw.githubusercontent.com/tamacun/jekyll-now/master/images/logo-
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:lauren@saekitchen.com
-  facebook:sae.kitchen
+  email: lauren@saekitchen.com
+  facebook: https://www.facebook.com/sae.kitchen
   flickr:
   github: tamacun/jeckyll-now
-  instagram: sae_kitchen
+  instagram: https://www.instagram.com/sae_kitchen
   linkedin:
   pinterest:
   rss: sae # just type anything here for a working RSS icon
